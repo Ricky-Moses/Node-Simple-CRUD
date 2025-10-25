@@ -45,6 +45,8 @@ const server = http.createServer((req, res) => {
                 padding: 0 5px;
                 height: 5vh;
                 border-radius: 10px;
+                border: none; 
+                box-shadow: 0 0 10px rgba(0,0,0.2);
             }
 
             main > form button{
@@ -72,7 +74,7 @@ const server = http.createServer((req, res) => {
             }
             
             main ul li{
-              box-shadow: 0 0 10px rgba(0,0,0.5);
+              box-shadow: 0 0 10px rgba(0,0,0.2);
               display: flex;
               flex-wrap: wrap;
               align-items: center;
